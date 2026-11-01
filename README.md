@@ -33,6 +33,22 @@ My focus in agentic AI is practical: connecting AI capabilities with business sy
 
 I document my contribution and the role of AI assistance in each project, including the decisions, review, and validation I carry out.
 
+## Selected projects
+
+### [Salesforce Demo Builder](https://github.com/ItziarFdez/salesforce-demo-builder)
+
+An agent-assisted workflow for turning a business brief into a reviewed Salesforce demo specification. A deterministic compiler generates custom objects, fields, layouts, access permissions, a Lightning app, and a walkthrough. Creating and deploying to a new scratch org requires explicit approval.
+
+**Status:** local prototype with 11 automated tests; live Salesforce deployment validation pending.
+
+### [RevOps Import Workbench](https://github.com/ItziarFdez/revops-import-workbench)
+
+A local CSV preparation tool for CRM implementations. Explicit mappings, type validation, normalized duplicate checks, and review reports make import decisions reproducible while preserving the original data.
+
+**Status:** working local utility with 10 automated tests. It prepares files; it does not perform CRM imports.
+
+Both repositories document the initial implementation with Codex, the role of AI assistance, and the validation completed so far.
+
 ## Credentials and professional development
 
 - Salesforce Certified Administrator and Advanced Administrator.
