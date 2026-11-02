@@ -35,6 +35,12 @@ I document my contribution and the role of AI assistance in each project, includ
 
 ## Selected projects
 
+### [CRM Change Approval Gate](https://github.com/ItziarFdez/crm-change-approval-gate)
+
+A review component for agent-proposed CRM updates, built on the open-source jsonschema validator. It checks field allowlists, business constraints and expected record values, then requires explicit approval before exporting a payload.
+
+**Status:** local prototype with 14 automated tests and CLI checks. It exports reviewed changes; it does not write to a CRM. Upstream attribution and AI assistance are documented.
+
 ### [Salesforce Demo Builder](https://github.com/ItziarFdez/salesforce-demo-builder)
 
 An agent-assisted workflow for turning a business brief into a reviewed Salesforce demo specification. A deterministic compiler generates custom objects, fields, layouts, access permissions, a Lightning app, and a walkthrough. Creating and deploying to a new scratch org requires explicit approval.
@@ -47,7 +53,7 @@ A local CSV preparation tool for CRM implementations. Explicit mappings, type va
 
 **Status:** working local utility with 10 automated tests. It prepares files; it does not perform CRM imports.
 
-Both repositories document the initial implementation with Codex, the role of AI assistance, and the validation completed so far.
+These repositories document the initial implementation with Codex, the role of AI assistance, and the validation completed so far.
 
 ## Credentials and professional development
 
