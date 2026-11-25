@@ -35,6 +35,12 @@ I document my contribution and the role of AI assistance in each project, includ
 
 ## Selected projects
 
+### [Agent Output Evaluator](https://github.com/ItziarFdez/agent-output-evaluator)
+
+A local evaluation utility for structured agent outputs. Built on RapidFuzz, it applies explicit field rules, checks missing and unexpected outputs, and compares candidate runs with a baseline to identify regressions.
+
+**Status:** working local prototype with 16 automated tests and CLI checks. No live agent or CRM integration validated. Upstream attribution and AI assistance are documented.
+
 ### [CRM Change Approval Gate](https://github.com/ItziarFdez/crm-change-approval-gate)
 
 A review component for agent-proposed CRM updates, built on the open-source jsonschema validator. It checks field allowlists, business constraints and expected record values, then requires explicit approval before exporting a payload.
